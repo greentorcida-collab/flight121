@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "flight",
+  "version": "${version}",
+  "name": "Survival Flight",
+  "description": "Terbang seperti mode Creative di survival dan hardcore.",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.flight.Flight"],
+    "client": ["com.flight.FlightClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
